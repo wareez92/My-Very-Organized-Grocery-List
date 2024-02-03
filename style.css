@@ -6,15 +6,18 @@ body{
 
 .Pantry-Items {
     display: flex;
-    justify-content: center ;
-    border: 10px;
+    justify-content: space-evenly ;
+    align-content: center;
+    background-color: #0a2218;
 }
 
 /* Freezer-Item Section Styling */
 
 .Freezer-Items {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #13221c;
 }
 
 /* Main Header */
@@ -64,4 +67,8 @@ h3{
 
 li {
     color: rgb(224, 209, 199);
+}
+
+img {
+    padding: 10px;
 }
